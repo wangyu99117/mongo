@@ -22,7 +22,7 @@ import java.util.*;
 import static org.springframework.data.mongodb.core.query.Criteria.where;
 
 /**
- * Created by wuxiaoyan on 2016/12/6.
+ * Created by wangyu on 2016/12/6.
  */
 public class MongoBaseDao<T, PK extends Serializable> {
     protected Logger LOGGER = LoggerFactory.getLogger(getClass());
